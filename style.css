@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url("photo123.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.img{
+    background-image: url("./photo123.jpg");
+    width: 1050px;
+    height: 580px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.div1{
+    background-color: green;
+    width: 190px;
+    height: 108px;
+    position: absolute;
+    left: 115px;
+    top: 200px;
+}
+.div2{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 228px;
+    left: 180px;
+}
+.div3{
+    background-color: rgb(50, 3, 65);
+    height: 300px;
+    width: 10px;
+    position: absolute;
+    top: 191px;
+    left: 105px;
+}
+.div4{
+    background-color: black;
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    bottom: 59px;
+    left: 71px;
+}
+.div5{
+    background-color: brown;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    left: 61px;
+    bottom: 30px;
+}
